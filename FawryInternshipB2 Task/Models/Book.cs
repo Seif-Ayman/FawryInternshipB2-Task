@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FawryInternshipB2_Task.Models
 {
-    internal abstract class Book
+    public abstract class Book
     {
         public string ISBN { get; set; }
         public string Title { get; set; }
