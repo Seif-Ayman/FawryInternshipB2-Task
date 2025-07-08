@@ -8,7 +8,7 @@ namespace FawryInternshipB2_Task
         {
             var store = new Inventory();
 
-            var paperBook = new PaperBook("EG001", "العطر الفرنسي", 2020, 120, "\nاحمد خالد توفيق", 5);
+            var paperBook = new PaperBook("EG001", "French Perfume", 2020, 120, "Dr. Ahmed Khaled Tawfik", 5);
             var ebook = new EBook("EG002", "Yotobia", 2008, 140, "Dr. Ahmed Khaled Tawfik", "PDF\n");
             var showcase = new ShowcaseBook("SB001", "Quantum Physics Intro", 1995, "Dr. Jane Wells\n");
 
