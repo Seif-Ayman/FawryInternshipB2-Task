@@ -22,5 +22,13 @@ namespace FawryInternshipB2_Task.Models
             Price = price;
             Author = author;
         }
+
+        public bool isOutdated(int maximumyear)
+        {
+            int currentYear = DateTime.Now.Year;
+            return (currentYear - Year) > maximumyear;
+        }
+        public abstract double Buy(int quantity, string email, string address);
+
     }
 }
